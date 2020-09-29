@@ -72,3 +72,11 @@ a {
   color: #3783a3;
   font-size: 1.125rem;
 }
+
+li {
+  display: inline-block;
+}
+
+.essence {
+  text-align: center;
+}
