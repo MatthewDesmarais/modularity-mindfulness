@@ -48,3 +48,22 @@ header,
 .group {
   text-align: center;
 }
+
+.head {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.gardens {
+  margin: 0;
+  font-size: 1.125rem;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin-bottom: 1rem;
+  margin-top: .25rem;
+}
