@@ -25,6 +25,11 @@ html {
   font-style: normal;
 }
 
+.line {
+  color: #e2e2e2;
+  padding-top: 20px;
+}
+
 figure,
 article {
   margin: 1.1rem;
@@ -132,6 +137,11 @@ footer {
 
 @media only screen and (min-width: 38em) {
 
+  .line {
+    color: #e2e2e2;
+    padding-top: 1px;
+  }
+
   body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -181,12 +191,12 @@ footer {
   }
 
   nav li {
-   padding: 0 .5rem;
+    padding: 0 .5rem;
   }
 
   ul {
-   display: flex;
-   justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
   }
 
   .ban-pic {
@@ -212,6 +222,7 @@ footer {
     grid-row: 2;
     margin: 0;
   }
+
   .gravel {
     display: grid;
     grid-column: 2;
@@ -234,6 +245,26 @@ footer {
   .gravel-pic,
   .view-pic {
     margin-top: 0;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .line {
+    color: #e2e2e2;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+
+  .script {
+    width: 57%;
+    margin-left: 13rem;
+  }
+
+  .description {
+    width: 60%;
+    margin-left: 12rem;
   }
 
 }
